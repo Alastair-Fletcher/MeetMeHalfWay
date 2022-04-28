@@ -1,7 +1,7 @@
 // AIRPORTS CONTROLLER
 
 // No DB or models. Data coming directly from a json file.
-const airportsData = require('../assets/airports.json');
+const airportsData = require("../assets/airports.json");
 
 async function getAirportList(req, res) {
   try {
@@ -18,8 +18,7 @@ async function getAirportList(req, res) {
           country: element.country,
           direct_flights: element.direct_flights,
           lat: element.lat,
-          lon: element.lon
-
+          lon: element.lon,
         };
         listOfAirports.push(itemToAdd);
       }
