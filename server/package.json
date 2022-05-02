@@ -17,6 +17,7 @@
     "express": "^4.18.1",
     "follow-redirects": "^1.14.9",
     "fs": "^0.0.1-security",
+    "nodemon": "^2.0.16",
     "querystring": "^0.2.1",
     "typescript": "^4.6.4"
   },

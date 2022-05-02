@@ -1,7 +1,7 @@
 // -- Use line 2 instead of line 4 when checking function in node with test data below
 // const findCommonArrayEls = (arrOfArrs) => {
 
-import { Destination } from '../interfaces';
+import { Destination } from "../interfaces";
 
 // -- Export function
 export const findCommonArrayEls = (arrOfArrs: Destination[][]) => {
@@ -11,7 +11,7 @@ export const findCommonArrayEls = (arrOfArrs: Destination[][]) => {
   } else {
     let toDo = [...arrOfArrs];
     while (toDo.length > 1) {
-      console.log(toDo, 'TO DO');
+      console.log(toDo, "TO DO");
       toDo[0] = toDo[0].filter(function (o1) {
         // console.log(o1, 'O1 HERE');
 
